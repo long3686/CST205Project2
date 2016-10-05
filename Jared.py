@@ -1,3 +1,5 @@
+#this program requires the speech recognition library
+#this program requires pyaudio
 import speech_recognition as sr
 
 # obtain audio from the microphone

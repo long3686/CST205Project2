@@ -1,6 +1,5 @@
- --------
-|FileGone|
- --------
+FileGone
+--------
 
 PURPOSE
 -------
@@ -15,12 +14,12 @@ PERIPHERAL REQUIREMENTS
 
 REQUIRED LIBRARIES
 ------------------
-pycrypto 2.6.1
-cryptography 1.5.2
-crypto 1.4.1
-OpenCV 3.0
-Speech_Recognition 3.4.6
-NumPy
+* pycrypto 2.6.1
+* cryptography 1.5.2
+* crypto 1.4.1
+* OpenCV 3.0
+* Speech_Recognition 3.4.6
+* NumPy
 
 INSTALLING
 ----------
@@ -37,9 +36,9 @@ RUNNING
 
 FUTURE WORK
 -----------
-*Create a decryption option to restore the file to the original state.
-*Create a user specific face recognition with a cascade file.
-*Encrypt/ decrypt file folders (batch encryption/ decryption).
+* Create a decryption option to restore the file to the original state.
+* Create a user specific face recognition with a cascade file.
+* Encrypt/ decrypt file folders (batch encryption/ decryption).
 
 MAINTAINERS
 -----------

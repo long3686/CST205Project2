@@ -42,6 +42,6 @@ FUTURE WORK
 
 MAINTAINERS
 -----------
-Jared Long - https://github.com/long3686\n
-MooYoung Oh - https://github.com/MOOYOUONGOH
-Hugo Hernandez - https://github.com/huhernandez
+* Jared Long - https://github.com/long3686
+* MooYoung Oh - https://github.com/MOOYOUONGOH
+* Hugo Hernandez - https://github.com/huhernandez

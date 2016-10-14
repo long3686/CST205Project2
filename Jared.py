@@ -25,7 +25,8 @@ def encrytpting(key, input_file, output_file=None, chunksize=64*1024):
 
                 outfile.write(encryptor.encrypt(chunk))
 lockedfile = input("What file should be encrypted?" )
-key = "fnU229byBYf0XUt81l1QpLTF9vv84Tkc"
+key = "fkU239bvBYf1XUt91g1QpLTF0vw84Pkj"
+#recognizer_instance.energy_threshold = 50
 r = sr.Recognizer()
 with sr.Microphone() as source:
     print("Voice Recognition Activated, Please State The Passowrd: ")

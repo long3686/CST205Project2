@@ -1,6 +1,6 @@
 # CST205Project2
 #Purpose 
-  the purpose of this code is that detect the face and eyes for encrypt and unencrypt specific files or folder to protect from the   hacking.
+  the purpose of this code is that detect the face and eyes to encrypt and unencrypt specific files or folder to protect from the   hacking.
 
 #How to run program (Window version)
   1. Set up the VirtualBox OS - Linux

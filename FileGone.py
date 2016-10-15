@@ -1,11 +1,16 @@
+#https://github.com/long3686/CST205Project2
+#CST 205
+#Authors: Jared Long, Hugo Hernandez, Mooyoung Oh
+#Project title: FileGone
+#October 14, 2016
 import os, random, struct, binascii
 from Crypto.Cipher import AES
 import speech_recognition as sr
 #project.py must be in the same folder as FileGone.py
-import project
+import project #done by Mooyoung
 import cv2
 import numpy as np
-#function that does the encrytpting
+#function that does the encrytpting, done by Hugo
 def encrytpting(key, input_file, output_file=None, chunksize=64*1024):
     #if output_file isn't specified, the encrypted file will be the same as the input_file
     if not output_file:
@@ -37,7 +42,7 @@ lockedfile = input("What file should be encrypted?" )
 #randomly generated 16 bit key to use in encryption, feel free to use your own
 key = "fkU239bvBYf1XUt91g1QpLTF0vw84Pkj"
 speechRecog = sr.Recognizer()
-#if a face is found, then speech recognition is turned on
+#if a face is found, then speech recognition is turned on, done by Jared
 if x in faces > 0 and y in faces > 0 and w in faces > 0 and h in faces > 0:
     #uses the microphone as a source for speech recognition, sensitivity will vary, best done in a quiet room
     with sr.Microphone() as source:

@@ -24,11 +24,13 @@ REQUIRED LIBRARIES
 INSTALLING
 ----------
 * Download Required Libraries
-* Download jared.py from github repository here: https://github.com/long3686/CST205Project2
+* Download FileGone.py from github repository here: https://github.com/long3686/CST205Project2
+* Download project.py from the feature branch face_detection here https://github.com/long3686/CST205Project2/tree/face_detection
+* Put FileGone.py and project.py in the same file before running FileGone.py
 
 RUNNING
 -------
-* Run terminal operation python jared.py from local directory
+* Run terminal operation python FileGone.py from local directory
 * FileGone will ask for a file to encrypt(text/ image). Specify the filepath.
 * FileGone will now look for a face via webcam in order to go to the next step.
 * Once a face is recognized, FileGone will ask for a voice password (you can say "password").
@@ -44,4 +46,4 @@ MAINTAINERS
 -----------
 * Jared Long - https://github.com/long3686 (Voice recognition)
 * MooYoung Oh - https://github.com/MOOYOUONGOH (Face recognition)
-* Hugo Hernandez - https://github.com/huhernandez (File encryption)
+* Hugo Hernandez - https://github.com/huhernandez (File encryption/ReadMe)

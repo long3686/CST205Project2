@@ -23,7 +23,7 @@ REQUIRED LIBRARIES
 
 INSTALLING
 ----------
-* Download Required Libraries
+* Download Required Libraries/ .xml files
 * Download FileGone.py from github repository here: https://github.com/long3686/CST205Project2
 * Download project.py from the feature branch face_detection here https://github.com/long3686/CST205Project2/tree/face_detection
 * Put FileGone.py and project.py in the same file before running FileGone.py

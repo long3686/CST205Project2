@@ -10,6 +10,7 @@ import speech_recognition as sr
 import project #done by Mooyoung
 import cv2
 import numpy as np
+from project import faces
 #function that does the encrytpting, done by Hugo
 def encrytpting(key, input_file, output_file=None, chunksize=64*1024):
     #if output_file isn't specified, the encrypted file will be the same as the input_file
@@ -43,7 +44,7 @@ lockedfile = input("What file should be encrypted?" )
 key = "fkU239bvBYf1XUt91g1QpLTF0vw84Pkj"
 speechRecog = sr.Recognizer()
 #if a face is found, then speech recognition is turned on, done by Jared
-if x in faces > 0 and y in faces > 0 and w in faces > 0 and h in faces > 0:
+if faces.all():
     #uses the microphone as a source for speech recognition, sensitivity will vary, best done in a quiet room
     with sr.Microphone() as source:
         print("Voice Recognition Activated, Please State The Passowrd: ")
@@ -62,6 +63,6 @@ if x in faces > 0 and y in faces > 0 and w in faces > 0 and h in faces > 0:
         encrytpting(key,lockedfile,lockedfile,16)
     else:
         print("You do not have permission to encrypt this file")
-#if no face is detected, do not prompt for speech or allow encryption
+    #if no face is detected, do not prompt for speech or allow encryption
 else:
     print ("No faces detected by the camera, permission not granted")
